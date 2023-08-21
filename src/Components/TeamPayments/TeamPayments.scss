@@ -1,0 +1,94 @@
+@mixin Circle {
+  width: 40px;
+  height: 40px;
+  border: 2px solid white;
+  border-radius: 25px;
+}
+
+.teamPayments {
+  width: 210px;
+  height: 200px;
+  border: 1px solid rgb(207, 207, 209);
+  border-style: dashed;
+  border-radius: 25px;
+  position: relative;
+  margin-right: 15px;
+
+  .paddingBlock {
+    padding: {
+      top: 16px;
+      left: 22px;
+      right: 35px;
+      bottom: 0;
+    }
+
+    .bell {
+      position: absolute;
+      right: 13px;
+      font-size: 22px;
+    }
+
+    h2 {
+      margin: 0;
+      width: 120px;
+      font-size: 20px;
+    }
+
+    p {
+      margin: {
+        top: 10px;
+        bottom: 0;
+      }
+      font-size: 12px;
+      font-weight: 700;
+
+      svg {
+        color: rgb(85, 130, 229);
+      }
+    }
+
+    ul {
+      list-style: none;
+      padding: 0;
+      display: flex;
+      align-items: center;
+      position: absolute;
+      bottom: 0;
+
+      .blueCircle {
+        background-color: blue;
+        @include Circle;
+      }
+
+      .greenCircle {
+        background-color: green;
+        @include Circle;
+        position: relative;
+        left: -9px;
+      }
+
+      .pinkesCircle {
+        background-color: rgb(90, 194, 195);
+        @include Circle;
+        position: relative;
+        left: -18px;
+      }
+
+      .whiteCircle {
+        background-color: white;
+        @include Circle;
+        position: relative;
+        left: -26px;
+
+        p {
+          margin: 0;
+          position: absolute;
+          left: 10px;
+          top: 11px;
+          font-size: 13px;
+          font-weight: 700;
+        }
+      }
+    }
+  }
+}

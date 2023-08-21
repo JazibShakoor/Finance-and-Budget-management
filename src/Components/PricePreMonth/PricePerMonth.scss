@@ -1,0 +1,80 @@
+.pricePerMonthWapper {
+  width: 210px;
+  height: 200px;
+  border: 1px solid rgb(207, 207, 209);
+  border-style: dashed;
+  border-radius: 25px;
+  background-image: linear-gradient(
+    to right,
+    rgb(27, 145, 153),
+    rgb(66, 197, 203)
+  );
+  position: relative;
+
+  .paddingBlock {
+    padding: {
+      top: 16px;
+      left: 22px;
+      right: 35px;
+      bottom: 0;
+    }
+
+    .start {
+      position: absolute;
+      right: 12px;
+      font-size: 23px;
+      top: 18px;
+      color: white;
+    }
+
+    h2 {
+      margin: 0;
+      font-size: 28px;
+      font-weight: 500;
+      color: white;
+    }
+
+    p {
+      margin: {
+        top: 5px;
+        bottom: 0;
+      }
+      font-size: 12px;
+      color: rgb(155, 214, 218);
+    }
+
+    h4 {
+      color: white;
+      font-size: 18px;
+      margin: 13px 0px;
+    }
+
+    .buttonBlock {
+      width: 199px;
+      height: 53px;
+      background-color: white;
+      position: absolute;
+      left: -1px;
+      border-bottom-left-radius: 15px;
+      border-bottom-right-radius: 15px;
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+
+      button {
+        border: none;
+        background-color: white;
+      }
+
+      .blackBtn {
+        background-color: black;
+        border: none;
+        border-radius: 25px;
+        width: 95px;
+        height: 41px;
+        color: white;
+        font-size: 12px;
+      }
+    }
+  }
+}

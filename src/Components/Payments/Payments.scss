@@ -1,0 +1,85 @@
+.paymentsWapper {
+  padding: 0px;
+
+  h2 {
+    font-size: 18px;
+    font-weight: 600;
+    margin: 0;
+    margin-bottom: 12px;
+  }
+
+  .recentPaymentsBlock {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .payments1 {
+      background-color: white;
+      border: 1px soild white;
+      width: 380px;
+      height: 50px;
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly;
+      border-radius: 15px;
+
+      .square {
+        width: 30px;
+        height: 30px;
+        background-color: blue;
+        border-radius: 8px;
+      }
+
+      .details {
+        position: relative;
+        left: -13px;
+        p {
+          font-size: 12px;
+          margin: 2px;
+          font-weight: 700;
+        }
+
+        p:nth-child(2) {
+          color: rgb(193, 193, 193);
+        }
+      }
+
+      .price {
+        color: rgb(80, 80, 80);
+        font-weight: 800;
+      }
+
+      .status {
+        border-radius: 15px;
+        padding: 5px 20px;
+        background-color: rgb(230, 246, 246);
+
+        p {
+          margin: 0;
+          font-size: 12px;
+          color: rgb(126, 188, 188);
+          font-weight: 600;
+        }
+      }
+
+      .statusGreen {
+        background-color: rgb(255, 240, 226);
+        border-radius: 15px;
+        padding: 5px 20px;
+
+        p {
+          margin: 0;
+          font-size: 12px;
+          color: rgb(221, 141, 66);
+          font-weight: 600;
+        }
+      }
+    }
+  }
+
+  .pqyment1:nth-child(2) {
+    position: relative;
+    left: -24px;
+    margin-right: 5px;
+  }
+}
