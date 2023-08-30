@@ -11,6 +11,8 @@ const PricePerMonth = () => {
         <h2>$95.9</h2>
         <p>Per Month</p>
         <h4>Choose Best Plan For You!</h4>
+      </div>
+      <div className="innerDiv">
         <div className="buttonBlock">
           <button>Details</button>
           <button className="blackBtn">Upgrade</button>
